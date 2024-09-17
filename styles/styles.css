@@ -59,3 +59,189 @@ li a:hover {
     color: var(--bg-color);
     transition: .3s ease-in-out;
 }
+
+/* Home Page */
+
+section{
+    padding: 70px 17% 60px;
+}
+
+.home{
+    background-image: url("../images/home-background.png");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-text h1{
+    color:#ED8F45;
+    font-family: 'Poppins', C;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.home-text p{
+    font-family: 'Poppins', sans-serif;
+    color: #FBF0F4;
+    font-size: 1rem;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contato*/
+
+.contato {
+    text-align: center;
+    margin: 50px 500px;
+    background-color: var(--secondary-color);
+}
+
+.contato-img {
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.contato-img img {
+    width: 400px;
+}
+
+.nome-pizzaria {
+    margin-top: 30px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.endereco-pizarria {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1rem;
+}
+
+.background-info {
+    background-color: var(--bg-color);
+}
+
+.campos-info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.campos-info input {
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
