@@ -109,6 +109,7 @@ section{
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 30px;
+}
 
 
 
@@ -214,6 +215,7 @@ section{
     text-align: center;
     margin: 50px 500px;
     background-color: var(--secondary-color);
+    height: 1000px;
 }
 
 .contato-img {
@@ -246,6 +248,7 @@ section{
     width: 300px;
     margin: auto;
     margin-top: 30px;
+    height: 245px;
 }
 
 .campos-info input {
@@ -255,4 +258,23 @@ section{
     border: none;
     outline: none;
     padding-left: 10px;
+} 
+
+.button-enviar {
+    margin: 40px;
+}
+
+.button-enviar button {
+    outline: none;
+    width: 140px;
+    height:50px;
+    font-weight: bold;
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.button-enviar button:hover {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--text-color);
 }
