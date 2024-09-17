@@ -17,12 +17,12 @@ body {
 :root {
     --bg-color: #ED8F45;
     --secondary-color: #FBF0F4;
-    --text-color: rgb(0, 0, 0);
+    --text-color:#FBF0F4;
 }
 
 header {
     display: flex;
-    background-color: var(--secondary-color);
+    background-color: var(--bg-color);
     align-items: center;
     font-size: 1.3rem;
     font-family: 'Poppins', sans-serif;
@@ -52,11 +52,11 @@ header {
 li a {
     cursor: pointer;
     transition: .3s ease-in-out;
-    color: var(--text-color);
+    color: #FBF0F4;
 }
 
 li a:hover {
-    color: var(--bg-color);
+    color:black;
     transition: .3s ease-in-out;
 }
 
@@ -110,6 +110,31 @@ section{
     font-weight: 500;
     margin-bottom: 30px;
 }
+
+.btn{
+    font-family:'Poppins', sans-serif;
+    display: inline-block;
+    padding: 13px 40px;
+    background:#ED8F45;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#FBF0F4;
+    transition: all .50s ease;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    transform: translateX(5px);
+    border: 2px solid;
+    border-color:#ED8F45;
+    background-color: transparent;
+    color:#ED8F45;
+    border-radius: 4px;
+}
+
+
 
 
 
