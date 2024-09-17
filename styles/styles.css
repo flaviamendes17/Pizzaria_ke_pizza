@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 :root {
     --bg-color: #ED8F45;
     --secondary-color: #FBF0F4;
+    --text-color: rgb(0, 0, 0);
 }
 
 header {
@@ -47,12 +49,13 @@ header {
     font-weight: bold;
 }
 
-li {
+li a {
     cursor: pointer;
     transition: .3s ease-in-out;
+    color: var(--text-color);
 }
 
-li:hover {
+li a:hover {
     color: var(--bg-color);
     transition: .3s ease-in-out;
 }
