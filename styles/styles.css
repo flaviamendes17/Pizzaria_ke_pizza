@@ -67,7 +67,7 @@ section{
 }
 
 .home{
-    background-image: url("../images/home-background.png");
+    background-image: url("../images/Img-Home.png");
     position: relative;
     height: 100vh;
     width: 100%;
@@ -78,9 +78,27 @@ section{
 
 .home-text h1{
     color:#ED8F45;
-    font-family: 'Poppins', C;
-    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6.5rem;
     font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.home-text h2{
+    color:#FBF0F4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 550;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.home-text h2 span{
+    color:#ED8F45;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 550;
     line-height: 1.2;
     margin-bottom: 20px;
 }
@@ -88,16 +106,9 @@ section{
 .home-text p{
     font-family: 'Poppins', sans-serif;
     color: #FBF0F4;
-    font-size: 1rem;
-    
-
-}
-
-
-
-
-
-
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
 
 
 
