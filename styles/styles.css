@@ -134,6 +134,77 @@ section{
     border-radius: 4px;
 }
 
+/* Menu Page */
+
+.card-container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.menu-card{
+    font-family: 'Poppins', sans-serif;
+    width: 325px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   
+}
+
+.menu-card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 16px;
+}
+
+.card-content h3{
+    color: var(--bg-color);
+    font-size: 28px;
+    margin-bottom: 8px;
+
+}
+
+.card-content p{
+    color: rgba(0, 0, 0, 0.637);
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.card-content .btn{
+    font-family:'Poppins', sans-serif;
+    display: inline-block;
+    padding: 5px 14px;
+    background:#ED8F45;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#FBF0F4;
+    transition: all .50s ease;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card-container2{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+
+
+
+
 /*contato*/
 
 .contato {
