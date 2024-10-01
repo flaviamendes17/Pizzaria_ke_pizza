@@ -273,18 +273,21 @@ section{
     color: var(--text-color);
 }
 
+.button-enviar button a {
+    color: white;
+    padding: 50px;
+}
+
 .button-enviar button:hover {
     background-color: #db7c00;
     border: 1px solid var(--text-color);
 }
 
+
+
 .caixinha {
+    display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    margin-top: 30px;
-    border: 1px solid black;
-}
-
-.caixinha h3 {
-    
+    margin: 30px 5px 0;
 }
