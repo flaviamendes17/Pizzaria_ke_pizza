@@ -19,6 +19,7 @@ body {
     --bg-color: #ED8F45;
     --secondary-color: #FBF0F4;
     --text-color:#FBF0F4;
+    --hover-button: #24da00;
 }
 
 header {
@@ -211,16 +212,18 @@ section{
     text-align: center;
     margin: 50px 500px;
     background-color: var(--secondary-color);
-    height: 1000px;
+    height: 1230px;
+    border-radius: 30px;
 }
 
 .contato-img {
     width: 100%;
     background-color: var(--bg-color);
+    border-radius: 30px 30px 0 0;
 }
 
 .contato-img img {
-    width: 400px;
+    width: 200px;
 }
 
 .nome-pizzaria {
@@ -241,15 +244,14 @@ section{
 .campos-info {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 500px;
     margin: auto;
     margin-top: 30px;
-    height: 245px;
+    height: 290px;
 }
 
 .campos-info input {
-    margin-top: 30px;
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -263,14 +265,26 @@ section{
 .button-enviar button {
     outline: none;
     width: 140px;
-    height:50px;
+    height: 50px;
     font-weight: bold;
     background-color: var(--bg-color);
     border: none;
     border-radius: 10px;
+    color: var(--text-color);
 }
 
 .button-enviar button:hover {
-    background-color: var(--secondary-color);
+    background-color: #db7c00;
     border: 1px solid var(--text-color);
+}
+
+.caixinha {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.caixinha h3 {
+    
 }
