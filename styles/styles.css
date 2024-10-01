@@ -137,6 +137,46 @@ section{
 
 /* Menu Page */
 
+/* Menu container */
+
+.cardapio-container{
+    background-image: url("../images/Img-Menu.png");
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cardapio-container .cardapio-text h1{
+    color:#ED8F45;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.cardapio-container .cardapio-text h2{
+    color:#FBF0F4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 550;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+
+
+/*Pizza-container*/
+
+.pizza-container{
+    height: 120vh;
+    width: 100%;
+    background-color: var(--secondary-color);
+    
+}
 .card-container{
     display: flex;
     align-content: center;
@@ -149,7 +189,7 @@ section{
 .menu-card{
     font-family: 'Poppins', sans-serif;
     width: 325px;
-    background-color: var(--secondary-color);
+    background-color: #FFFFFF;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
