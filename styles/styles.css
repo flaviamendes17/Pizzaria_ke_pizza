@@ -448,8 +448,9 @@ footer {
 /* Estilos para telas com largura mínima de 700px */
 
 @media (max-width: 700px) {
+    }
     .home-text h1{
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 20px;
     }
     .home-text h2{
@@ -460,4 +461,3 @@ footer {
         font-size: 1.8rem;
         margin-bottom: 20px;
     }
-}
