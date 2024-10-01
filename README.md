@@ -4,7 +4,7 @@
 
 ## 🍕 | Instruções de como abrir o site:
 
-
+Abra seu navegador de preferência e acesse o endereço: https://gihcaron.github.io/Pizzaria_ke_pizza/
 
 ## 🍕 | Desenvolvedores
 

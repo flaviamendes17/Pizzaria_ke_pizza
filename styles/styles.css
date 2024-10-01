@@ -186,8 +186,41 @@ section{
 
 /*Pizza-container*/
 
+.pizza-division-line{
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 290px;
+    height: 2.8px;    
+    border-radius: 2px;
+    background-color: var(--bg-color);
+    margin-top: 50px;   
+    align-items: center;
+   }
+
+.pizza-container h5{
+    text-align: center;
+    color:#ED8F45;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 25px;
+   }
+
+.pizza-container h1{
+    color:#3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 150;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
 .pizza-container{
-    height: 120vh;
+    height: 130vh;
     width: 100%;
     background-color: var(--secondary-color);
     
@@ -233,6 +266,7 @@ section{
 }
 
 .card-content .btn{
+    margin-top: 15px;
     font-family:'Poppins', sans-serif;
     display: inline-block;
     padding: 5px 14px;
@@ -249,8 +283,7 @@ section{
 section h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    margin-left: 100px;
-}
+    }
 
 section h5 {
     font-size: 20px;
@@ -270,6 +303,9 @@ section h5 {
 /*Bebida Container*/
 
 .division-line{
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
     width: 290px;
     height: 2.8px;    
     border-radius: 2px;
@@ -279,6 +315,7 @@ section h5 {
    }
 
 .bebidas-container h5{
+    text-align: center;
     color:#ED8F45;
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
@@ -295,6 +332,12 @@ section h5 {
     line-height: 1.2;
     margin-bottom: 20px;
     margin-bottom: 25px;
+    text-align: center;
+}
+
+.card-content span{
+    color: var(--bg-color);
+    font-weight: 600;
 }
 
 
