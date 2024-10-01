@@ -447,7 +447,7 @@ footer {
 
 /* Estilos para telas com largura mínima de 700px */
 
-@media (max-width: 700px) {
+@media (max-width: 700px) and (max-width: 1024px){
     }
     .home-text h1{
         font-size: 3rem;
@@ -461,3 +461,18 @@ footer {
         font-size: 1.8rem;
         margin-bottom: 20px;
     }
+
+@media screen () {
+    .home-text h1{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .home-text h2{
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    .home-text h2 span{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+}
