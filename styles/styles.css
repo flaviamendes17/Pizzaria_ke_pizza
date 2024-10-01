@@ -79,7 +79,7 @@ section{
 }
 
 .home-text h1{
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 6.5rem;
     font-weight: 800;
@@ -97,7 +97,7 @@ section{
 }
 
 .home-text h2 span{
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 2.8rem;
     font-weight: 550;
@@ -117,7 +117,7 @@ section{
     font-family:'Poppins', sans-serif;
     display: inline-block;
     padding: 13px 40px;
-    background:#ED8F45;
+    background:var(--bg-color);
     font-size: 15px;
     font-weight: 600;
     line-height: 30px;
@@ -130,9 +130,9 @@ section{
 .btn:hover{
     transform: translateX(5px);
     border: 2px solid;
-    border-color:#ED8F45;
+    border-color:var(--bg-color);
     background-color: transparent;
-    color:#ED8F45;
+    color:var(--bg-color);
     border-radius: 4px;
 }
 
@@ -151,7 +151,7 @@ section{
 }
 
 .cardapio-container .cardapio-text h1{
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
@@ -200,7 +200,7 @@ section{
 
 .pizza-container h5{
     text-align: center;
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 900;
@@ -270,7 +270,7 @@ section{
     font-family:'Poppins', sans-serif;
     display: inline-block;
     padding: 5px 14px;
-    background:#ED8F45;
+    background:var(--bg-color);
     font-size: 15px;
     font-weight: 600;
     line-height: 30px;
@@ -316,7 +316,7 @@ section h5 {
 
 .bebidas-container h5{
     text-align: center;
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 900;
@@ -442,4 +442,38 @@ footer {
     font-weight: bold;
     font-size: 1rem;
     width: 100%;
+}
+
+/*Responsivo*/	
+
+/* Estilos para telas com largura mínima de 700px */
+
+@media (max-width: 700px) and (max-width: 1024px){
+    }
+    .home-text h1{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .home-text h2{
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    .home-text h2 span{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+@media screen () {
+    .home-text h1{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .home-text h2{
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    .home-text h2 span{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
 }
