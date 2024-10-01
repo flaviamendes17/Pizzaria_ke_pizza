@@ -151,7 +151,7 @@ section{
 }
 
 .cardapio-container .cardapio-text h1{
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
@@ -200,7 +200,7 @@ section{
 
 .pizza-container h5{
     text-align: center;
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 900;
@@ -270,7 +270,7 @@ section{
     font-family:'Poppins', sans-serif;
     display: inline-block;
     padding: 5px 14px;
-    background:#ED8F45;
+    background:var(--bg-color);
     font-size: 15px;
     font-weight: 600;
     line-height: 30px;
@@ -316,7 +316,7 @@ section h5 {
 
 .bebidas-container h5{
     text-align: center;
-    color:#ED8F45;
+    color:var(--bg-color);
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 900;
