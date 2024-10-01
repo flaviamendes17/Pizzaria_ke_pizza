@@ -154,18 +154,23 @@ section{
     color:#ED8F45;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .cardapio-container .cardapio-text h2{
-    color:#FBF0F4;
+    color:var(--secondary-color);
     font-family: 'Poppins', sans-serif;
-    font-size: 2.8rem;
-    font-weight: 550;
+    font-size: 4rem;
+    font-weight: 800;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.cardapio-container .cardapio-text span{
+    color:var(--bg-color);
+
 }
 
 .cardapio-container .cardapio-text p{
@@ -175,8 +180,8 @@ section{
     font-weight: 150;
     line-height: 1.2;
     margin-bottom: 20px;
+    margin-bottom: 25px;
 }
-
 
 
 /*Pizza-container*/
@@ -248,6 +253,31 @@ section{
     margin-top: 45px;
     gap: 2rem;
     justify-content: center;
+}
+
+/*Bebida Container*/
+
+.division-line{
+    width: 290px;
+    height: 2.8px;    
+    border-radius: 2px;
+    background-color: var(--bg-color);
+    margin-top: 50px;   
+    align-items: center;
+   }
+
+.bebidas-container h5{
+
+   }
+
+.bebidas-container h1{
+    color:#FBF0F4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 150;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
