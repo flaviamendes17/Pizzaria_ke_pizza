@@ -498,6 +498,21 @@ footer {
     .home-text p{
         font-size: 1rem;
     }
+
+    .btn{
+        padding: 12px 35px;
+    }
+
+    .contato{
+        margin: 30px 50px;
+    }
+
+    .campos-info{
+        width: 90%;
+    }
+
+    
+
     footer{
         width: 100%;
     }
