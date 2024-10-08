@@ -444,43 +444,80 @@ footer {
     width: 100%;
 }
 
-/*Responsivo*/	
+/*Responsividade*/	
 
-/* Estilos para telas com largura mínima de 700px */
+/* Estilos para telas com largura mínima de 700px e máxima de 1024px */
 
 @media (min-width: 700px) and (max-width: 1024px){
     
     header{
-        background-color: var(--hover-button)   ;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         width: 100%;
         height: 300px;
     }
 
     .logo-img{
-        background-color: var(--secondary-color);
         border-radius: 50%;
+        width: 60px;
         
-    }   
+    }  
+
+
+/* Menu de navegação */
+    .nav-bar{
+        margin-top: 15px;
+        margin-bottom: 17px;
+        margin-left: 0;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
     .home-text{
         width: 100%;
         margin: 0 auto;
-        background-color: var(--secondary-color);
     }
+
     .home-text{
         margin-left: 10px;
     }
     
     .home-text h1{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .home-text h2{
         font-size: 3rem;
         margin-bottom: 20px;
     }
-    .home-text h2{
-        font-size: 2.3rem;
+
+    .home-text h2 span{
+        font-size: 2rem;
         margin-bottom: 20px;
     }
-    .home-text h2 span{
-        font-size: 1.8rem;
-        margin-bottom: 20px;
+
+    .home-text p{
+        font-size: 1rem;
+    }
+
+    .btn{
+        padding: 12px 35px;
+    }
+
+    .contato{
+        margin: 30px 50px;
+    }
+
+    .campos-info{
+        width: 90%;
+    }
+
+    .card-container, .card-container2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     }
 
@@ -488,17 +525,41 @@ footer {
         width: 100%;
     }
 
-/* @media screen () {
-    .home-text h1{
-        font-size: 3rem;
-        margin-bottom: 20px;
+/* Estilos para telas com largura máxima de 700px*/
+
+@media (max-width: 700px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 310px;
     }
-    .home-text h2{
-        font-size: 2.3rem;
-        margin-bottom: 20px;
+
+    .logo-img{
+        border-radius: 50%;
+        width: 50px;
+        
+    }  
+
+
+/* Menu de navegação */
+    .nav-bar{
+        margin-top: 30px;
+        margin-bottom: 17px;
+        margin-left: 0;
+        flex-direction: column;
+        gap: 2rem;
     }
+<<<<<<< HEAD
     .home-text h2 span{
         font-size: 1.8rem;
         margin-bottom: 20px;
     }
 } */
+=======
+
+
+
+>>>>>>> c912e163b81ceefcf4890659ca03d3cdd7e2428d
