@@ -580,8 +580,46 @@ footer {
         padding: 10px 30px;
     }
 
-    
+    .pizza-container {
+    height: 380vh;
+    gap: 3rem;
+    width: 100%;
+}
 
+.pizza-container h5{
+    text-align: center;  
+    margin-right: 25%;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.bebidas-container h5{
+    text-align: center;  
+    margin-right: 25%;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.bebidas-container{
+    height: 380vh;
+    gap: 3rem;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+}
     .contato{
         margin: 20px 20px;
     }
