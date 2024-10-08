@@ -451,6 +451,9 @@ footer {
 @media (min-width: 700px) and (max-width: 1024px){
     
     header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         background-color: var(--hover-button)   ;
         width: 100%;
         height: 300px;
@@ -459,8 +462,17 @@ footer {
     .logo-img{
         background-color: var(--secondary-color);
         border-radius: 50%;
+        width: 60px;
         
-    }   
+    }  
+    
+    .nav-bar{
+        margin-top: 15px;
+        margin-bottom: 17px;
+        margin-left: 0;
+        flex-direction: column;
+        gap: 3rem;
+    }
     .home-text{
         width: 100%;
         margin: 0 auto;
@@ -471,11 +483,11 @@ footer {
     }
     
     .home-text h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-bottom: 20px;
     }
     .home-text h2{
-        font-size: 2.3rem;
+        font-size: .3rem;
         margin-bottom: 20px;
     }
     .home-text h2 span{
@@ -483,6 +495,9 @@ footer {
         margin-bottom: 20px;
     }
 
+    .home-text p{
+        font-size: 1rem;
+    }
     footer{
         width: 100%;
     }
