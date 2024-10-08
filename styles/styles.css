@@ -522,6 +522,13 @@ footer {
         padding: 12px 35px;
     }
 
+    .pizza-container {
+        height: 360vh;
+        gap: 3rem;
+        width: 100%;
+    }
+    
+
     .contato{
         margin: 30px 50px;
     }
@@ -534,7 +541,6 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-    }
     }
 
     footer{
