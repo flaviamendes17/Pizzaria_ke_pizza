@@ -444,9 +444,9 @@ footer {
     width: 100%;
 }
 
-/*Responsivo*/	
+/*Responsividade*/	
 
-/* Estilos para telas com largura mínima de 700px */
+/* Estilos para telas com largura mínima de 700px e máxima de 1024px */
 
 @media (min-width: 700px) and (max-width: 1024px){
     
@@ -463,7 +463,9 @@ footer {
         width: 60px;
         
     }  
-    
+
+
+/* Menu de navegação */
     .nav-bar{
         margin-top: 15px;
         margin-bottom: 17px;
@@ -471,10 +473,12 @@ footer {
         flex-direction: column;
         gap: 3rem;
     }
+
     .home-text{
         width: 100%;
         margin: 0 auto;
     }
+
     .home-text{
         margin-left: 10px;
     }
@@ -483,10 +487,12 @@ footer {
         font-size: 2.5rem;
         margin-bottom: 20px;
     }
+
     .home-text h2{
         font-size: 3rem;
         margin-bottom: 20px;
     }
+
     .home-text h2 span{
         font-size: 2rem;
         margin-bottom: 20px;
