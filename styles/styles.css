@@ -546,11 +546,11 @@ footer {
 
 /* Menu de navegação */
     .nav-bar{
-        margin-top: 15px;
+        margin-top: 30px;
         margin-bottom: 17px;
         margin-left: 0;
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
     }
 
 
