@@ -519,11 +519,11 @@ footer {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    }
 
     footer{
         width: 100%;
     }
-}
 
 /* Estilos para telas com largura máxima de 700px*/
 
@@ -599,3 +599,4 @@ footer {
 }
 
 
+}
