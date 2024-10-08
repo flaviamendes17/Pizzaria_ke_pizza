@@ -460,7 +460,6 @@ footer {
     }
 
     .logo-img{
-        background-color: var(--secondary-color);
         border-radius: 50%;
         width: 60px;
         
@@ -476,7 +475,6 @@ footer {
     .home-text{
         width: 100%;
         margin: 0 auto;
-        background-color: var(--secondary-color);
     }
     .home-text{
         margin-left: 10px;
@@ -487,11 +485,11 @@ footer {
         margin-bottom: 20px;
     }
     .home-text h2{
-        font-size: .3rem;
+        font-size: 3rem;
         margin-bottom: 20px;
     }
     .home-text h2 span{
-        font-size: 1.8rem;
+        font-size: 2rem;
         margin-bottom: 20px;
     }
 
@@ -511,7 +509,11 @@ footer {
         width: 90%;
     }
 
-    
+    .card-container, .card-container2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
     footer{
         width: 100%;
